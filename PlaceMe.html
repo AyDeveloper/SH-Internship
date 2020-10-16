@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceMe</title>
+</head>
+<body>
+    <header>
+    <hr>
+    <h1 style="text-align: center;">PlaceMe INC.</h1>
+    <hr>
+    <p>PlaceMe, Inc. is an upcoming placement consultancy firm based in New York. To increase its database of job seekers, the firm wants to provide a registration form on their Web site, where candidates can enter their personal, educational, and professional details. <br>
+        <br>
+        Please fill the following Fields</p>
+    </header>
+    <form action="#">
+        <fieldset>
+        <legend>Login Details</legend>
+        <label for="Username">
+            Username <br> <input type="text" id="username" placeholder="Enter Username">
+        </label> <br>
+        <label for="Password">
+            Password <br> <input type="text" id="passcode" placeholder="Enter Password">
+        </label> <br>
+        <label for="Re-enter Password">
+            Re-Enter Password <br> <input type="text" id="passcode1" placeholder="Re-Enter Password">
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Personal Details</legend>
+        <label for="FirstName">
+            Fisrtname <br> <input type="text" id="FName" placeholder="Enter Firstname">
+        </label> <br>
+        <label for="LastNAme">
+            Lastname <br> <input type="text" id="LName" placeholder="Enter Lastname">
+        </label> <br>
+        <label for="Email">
+            E-Mail <br> <input type="email" id="email" placeholder="Enter Your Email">
+        </label> <br>
+        <label for="Gender">
+            Gender <input type="radio" id="male" value="Male"> Male
+             <input type="radio" id="Female" value="Female"> Female
+        </label> <br>
+        <label for="Telephone">
+            Telephone <br> <input type="number" id="Telephone" placeholder="Telephone Number">
+        </label> <br>
+        <br>
+        <label for="Location"> Preferred Job Location
+          <select name="Location" id="Location">
+            <option value="Lagos">Lagos</option>
+            <option value="Abia">Abia</option>
+            <option value="P-H">Port-Harcourt</option>
+            <option value="Ibadan">Ibadan</option>
+            <option value="Owerri">Owerri</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Kano">Kano</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Osun">Osun</option>
+            <option value="Calabar">Calabar</option>
+            <option value="Abuja" selected>Abuja</option>
+            <option value="Onitsha">Onitsha</option>
+            <option value="Ebonyi">Abakaliki</option>
+           </select>
+        </label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Details</legend>
+            <label for="Experience">Experience
+                <select name="Experience" id="Experience">
+                    <option value="small">0-4</option>
+                    <option value="medium">5-9</option>
+                    <option value="large">10-14</option>
+                    <option value="larger">15-19</option>
+                    <option value="largest">20 & Above</option>
+                </select>
+            </label> <br> 
+            <br>
+            <label for="Job Desc">Job Description
+                <select name="Job Desc" id="Job Desc">
+                    <option value="BM">Business Manager</option>
+                    <option value="GD">Graphic Designer</option>
+                    <option value="FE">Front-End Developer</option>
+                    <option value="BE">Back End Developer</option>
+                    <option value="FS">FullStack Engineer</option>
+                    <option value="UI">UI/UX Designer</option>
+                    <option value="DS">Data Scientist</option>
+                    <option value="AI">AI </option>
+                    <option value="CE">Cloud Engineer </option>
+                    <option value="MA">Mobile App Developer</option>
+                </select>
+            </label> <br>
+            <br>
+            <label for="Job-Skills">Job Skills
+                <input type="text" id="Job-skills" placeholder="Please state skills acquired over the years" size="32">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Details</legend>
+            <label for="Degree">Degree
+                <select name="degree" id="degree">
+                    <option value="TC">Third Class</option>
+                    <option value="SCU" selected>Second Class Upper</option>
+                    <option value="SCL">Second Class lower</option>
+                    <option value="FC">First Class</option>
+                    <option value="P">Pass </option>
+                </select>
+            </label> <br>
+            <br>
+
+            <label for="Specialization"> Specialization <br>
+                <input type="text" id="spec" placeholder="Enter your Area of Specialization" size="26" maxlength="70">
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
